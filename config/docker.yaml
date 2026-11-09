@@ -1,0 +1,4 @@
+# Overlay merged over settings.yaml when RFP_SETTINGS_OVERLAY=config/docker.yaml
+# (docker-compose.yml sets it). Only the keys that differ from the base file.
+vector_store: {kind: qdrant_server}      # the server at QDRANT_URL (.env / compose environment)
+api: {ask_workers: 4, ask_queue_max: 16}

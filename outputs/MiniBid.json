@@ -1,0 +1,305 @@
+{
+  "bid_id": "MiniBid",
+  "fields": {
+    "Bid Number": {
+      "value": "RFP-2025-001",
+      "sources": [
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Solicitation Number: RFP-2025-001"
+        },
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "REQUEST FOR PROPOSAL RFP-2025-001"
+        },
+        {
+          "file": "notice_update.pdf",
+          "page": 1,
+          "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+          "quote": "RFP-2025-001 Laptops and Monitors"
+        }
+      ],
+      "confidence": 0.8,
+      "notes": "",
+      "status": "ok"
+    },
+    "Title": {
+      "value": "Laptops and Monitors",
+      "sources": [
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Title: Laptops and Monitors"
+        },
+        {
+          "file": "notice_update.pdf",
+          "page": 1,
+          "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+          "quote": "RFP-2025-001 Laptops and Monitors"
+        }
+      ],
+      "confidence": 0.8,
+      "notes": "",
+      "status": "ok"
+    },
+    "Due Date": {
+      "value": "March 10, 2025 at 2:00 PM CST",
+      "sources": [
+        {
+          "file": "notice_update.pdf",
+          "page": 1,
+          "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+          "quote": "The due date is extended to March 10, 2025 at 2:00 PM CST."
+        }
+      ],
+      "confidence": 0.6,
+      "notes": "Changed by Addendum 1: originally March 3, 2025 at 2:00 PM CST (notice_update.pdf p.1). Original due date: March 3, 2025 at 2:00 PM CST.",
+      "status": "ok"
+    },
+    "Bid Submission Type": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Installation": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Bid Bond Requirement": {
+      "value": "None required",
+      "sources": [
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Bond: None required"
+        }
+      ],
+      "confidence": 0.445,
+      "notes": "",
+      "status": "ok"
+    },
+    "Delivery Date": {
+      "value": "Within 30 days of award",
+      "sources": [
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Delivery: Within 30 days of award"
+        }
+      ],
+      "confidence": 0.445,
+      "notes": "Delivery location is not stated.",
+      "status": "ok"
+    },
+    "Payment Terms": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Any Additional Documentation Required": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Contract or Cooperative to use": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Part_no": {
+      "value": "ABC-123",
+      "sources": [
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "ABC-123 Widget Base Unit"
+        }
+      ],
+      "confidence": 0.4,
+      "notes": "",
+      "status": "ok"
+    },
+    "Product": {
+      "value": [
+        "Laptop 100",
+        "Monitor 25"
+      ],
+      "sources": [
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "Laptop 100"
+        }
+      ],
+      "confidence": 0.4,
+      "notes": "",
+      "status": "ok"
+    },
+    "contact_info": {
+      "value": "Pat Buyer, buyer@example.org",
+      "sources": [
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Contact Information: Pat Buyer buyer@example.org"
+        }
+      ],
+      "confidence": 0.445,
+      "notes": "",
+      "status": "ok"
+    },
+    "company_name": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Bid Summary": {
+      "value": "RFP-2025-001, “Laptops and Monitors,” seeks 100 laptops and 25 monitors and lists part number ABC-123; the procuring organization is not stated. Addendum 1 moved the due date from March 3, 2025, at 2:00 PM CST to March 10, 2025, at 2:00 PM CST. Delivery is required within 30 days of award, but the delivery location is not stated; no bid bond is required. Submission instructions, a pre-bid meeting, documentation and manufacturer-authorization requirements, and warranty terms are not stated. The listed contact is Pat Buyer at buyer@example.org.",
+      "sources": [
+        {
+          "file": "notice_update.pdf",
+          "page": 1,
+          "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+          "quote": "The due date is extended to March 10, 2025 at 2:00 PM CST."
+        },
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Delivery: Within 30 days of award"
+        },
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Solicitation Number: RFP-2025-001"
+        },
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "REQUEST FOR PROPOSAL RFP-2025-001"
+        },
+        {
+          "file": "notice_update.pdf",
+          "page": 1,
+          "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+          "quote": "RFP-2025-001 Laptops and Monitors"
+        },
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Title: Laptops and Monitors"
+        },
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Bond: None required"
+        },
+        {
+          "file": "bid_page.html",
+          "page": 1,
+          "chunk_id": "5c799fc7fd36d265cedf3b94b4bb765efdb96a6a:1:0",
+          "quote": "Contact Information: Pat Buyer buyer@example.org"
+        },
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "ABC-123 Widget Base Unit"
+        },
+        {
+          "file": "rfp.pdf",
+          "page": 1,
+          "chunk_id": "57ebb49995833193147836097c10f2f686b7beb3:1:0",
+          "quote": "Laptop 100"
+        }
+      ],
+      "confidence": 0.6,
+      "notes": "Generated from 8 validated fields",
+      "status": "ok"
+    },
+    "Product Specification": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.5,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    }
+  },
+  "addendum_changes": [
+    {
+      "field": "Due Date",
+      "kind": "override",
+      "old_value": "March 3, 2025 at 2:00 PM CST",
+      "new_value": "March 10, 2025 at 2:00 PM CST",
+      "addendum_number": 1,
+      "source": {
+        "file": "notice_update.pdf",
+        "page": 1,
+        "chunk_id": "67d13495298c50c6d2f6c3a7b81dc8ea64e0742d:1:0",
+        "quote": "The due date is extended to March 10, 2025 at 2:00 PM CST."
+      }
+    }
+  ],
+  "validation": {
+    "passed": 9,
+    "failed": 0,
+    "not_found": 11
+  },
+  "generated_at": "2026-10-10T09:52:16.785+00:00",
+  "run_id": "20261010T095111Z-f56e83"
+}

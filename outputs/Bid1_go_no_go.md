@@ -1,0 +1,15 @@
+# Bid1: Needs review
+
+Needs review: 6 of 7 criteria met. Unknown (not stated in the documents or undecidable): Contract vehicle accessible.
+
+Generated 2026-10-11T13:25:34.158+00:00 | run 20261011T132528Z-de58e6 | profile config/capabilities.yaml
+
+| criterion | status | critical | reason | fields | sources |
+|---|---|---|---|---|---|
+| Authorized for the required manufacturer(s) | met | yes | The bid names manufacturers that are all in the authorized list: Dell, HP, Lenovo, Apple, Acer, ASUS, Samsung, and Google. The requirement is satisfied by the company's authorized_manufacturers capability. | MFG for Registration, Model_no, Product, Product Specification | JA-207652 Student and Staff Computing Devices FINAL.pdf p.3; JA-207652 Student and Staff Computing Devices FINAL.pdf p.3; Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.3 |
+| Delivery window achievable | met | yes | No fixed delivery date is stated, and the bid says deliveries will be coordinated after award. The required installation services include asset tagging/etching and deployment, which the company capability covers via installation_services and imaging_and_asset_tagging. | Delivery Date, Installation | Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.1; Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.4; JA-207652 Student and Staff Computing Devices FINAL.pdf p.3 |
+| Bid bond within bonding capacity | met | yes | None of the fields Bid Bond Requirement is stated in the documents | Bid Bond Requirement |  |
+| Customer in a served region | met |  | The issuing organization is Dallas Independent School District, and Dallas is in Texas. Texas is a served region. | company_name, contact_info, Bid Submission Type | Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.1; JA-207652 Student and Staff Computing Devices FINAL.pdf p.1; Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html p.1 |
+| Contract term within policy | met |  | The term is "three (3) year agreement with two (2) successive one (1) year extensions." The initial term is 3 years, which is within the maximum. | Term of Bid | JA-207652 Student and Staff Computing Devices FINAL.pdf p.2 |
+| Submission method supported | met |  | The bid allows "Electronic submissions via the iSupplier portal" and also permits "manual paper submissions." The company supports electronic_portal and sealed_paper. | Bid Submission Type | JA-207652 Student and Staff Computing Devices FINAL.pdf p.9; Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf p.4 |
+| Contract vehicle accessible | unknown |  | The bid references "Educational Purchasing Cooperative of North Texas (EPCNT)" and "Central Texas Purchasing Alliance (CTPA)," but these are not clearly identifiable as memberships the company holds. The vehicle cannot be confirmed from the provided values. | Contract or Cooperative to use | JA-207652 Student and Staff Computing Devices FINAL.pdf p.19; JA-207652 Student and Staff Computing Devices FINAL.pdf p.20 |

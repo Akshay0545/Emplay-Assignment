@@ -1,0 +1,44 @@
+# Production-shaped local stack: a Qdrant server, the API, the built web app.
+#   cp .env.example .env   # fill in LLM_PROVIDER, LLM_API_KEY, EXTRACT_MODEL, REASON_MODEL
+#   docker compose up --build
+# Web app: http://localhost:5173   API: http://localhost:8001/docs   Qdrant: http://localhost:6333/dashboard
+# Index a bid against the server from the host (same overlay and URL):
+#   RFP_SETTINGS_OVERLAY=config/docker.yaml QDRANT_URL=http://localhost:6333 python main.py index --bid data/Bid1
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  api:
+    build: .
+    depends_on:
+      - qdrant
+    env_file: .env
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      RFP_SETTINGS_OVERLAY: config/docker.yaml
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./storage:/app/storage          # BM25 corpora and the index manifest
+      - hf_cache:/root/.cache/huggingface
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8001
+    depends_on:
+      - api
+    ports:
+      - "5173:80"
+
+volumes:
+  qdrant_storage:
+  hf_cache:

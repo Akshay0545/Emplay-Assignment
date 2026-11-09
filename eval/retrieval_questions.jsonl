@@ -1,0 +1,20 @@
+{"id": 1, "question": "What is the new due date?", "bid_id": "Bid1", "expected_file": "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf", "key_phrase": "July 9, 2024"}
+{"id": 2, "question": "When was the original solicitation due?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "27-JUN-2024"}
+{"id": 3, "question": "Is there a pre-proposal meeting?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "TEAMS video conference"}
+{"id": 4, "question": "How long is the contract term?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "two (2) successive one (1) year"}
+{"id": 5, "question": "Must Form 1295 be submitted with the response?", "bid_id": "Bid1", "expected_file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf", "key_phrase": "submitted with the RFP response"}
+{"id": 6, "question": "Is etching required on monitors?", "bid_id": "Bid1", "expected_file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf", "key_phrase": "only require etching on Laptops"}
+{"id": 7, "question": "Tier 3 student Windows laptop memory requirement", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "16GB RAM DDR5"}
+{"id": 8, "question": "How many Tier 1 Chromebooks are estimated?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "50,000"}
+{"id": 9, "question": "Who is the buyer?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "JALZATE@dallasisd.org"}
+{"id": 10, "question": "Which cooperatives can ride the contract?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "EPCNT"}
+{"id": 11, "question": "Can bids be emailed?", "bid_id": "Bid1", "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf", "key_phrase": "No fax or email submissions"}
+{"id": 12, "question": "What is the PORFP number?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "E20P4600040"}
+{"id": 13, "question": "What is the closing time?", "bid_id": "Bid2", "expected_file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html", "key_phrase": "06/10/2024 02:00 PM EDT"}
+{"id": 14, "question": "How soon must equipment be delivered?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "within 45 days of Award"}
+{"id": 15, "question": "Which affidavit concerns mercury?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "Mercury Affidavit"}
+{"id": 16, "question": "What processor does the Latitude 5550 have?", "bid_id": "Bid2", "expected_file": "Dell_Laptop_Specs.pdf", "key_phrase": "Core Ultra 5 125U"}
+{"id": 17, "question": "Which master contract applies?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "060B5400007"}
+{"id": 18, "question": "How long is the extended warranty?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "3 Years"}
+{"id": 19, "question": "WD22TB4 quantity", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "WD22TB4"}
+{"id": 20, "question": "How are invoices submitted?", "bid_id": "Bid2", "expected_file": "PORFP_-_Dell_Laptop_Final.pdf", "key_phrase": "STOaccountspayable"}

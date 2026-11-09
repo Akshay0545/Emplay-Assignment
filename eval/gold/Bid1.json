@@ -1,0 +1,55 @@
+{
+  "Bid Number": {"value": ["JA-207652", "168884"], "must_contain": ["JA-207652", "168884"]},
+  "Title": {"value": "Student and Staff Computing Devices", "must_contain": ["Student and Staff Computing Devices"]},
+  "Due Date": {
+    "value": "2024-07-09 14:00 CST (changed by Addendum 2; originally June 27, 2024 2:00 PM)",
+    "must_contain": ["2024-07-09", "14:00", "CST"]
+  },
+  "Bid Submission Type": {
+    "value": "Electronic via the Dallas ISD iSupplier portal (preferred) or one sealed hard copy to Procurement Services; no fax or email submissions",
+    "must_contain": ["iSupplier", "sealed", "fax"]
+  },
+  "Term of Bid": {
+    "value": "Three years with two successive one-year renewal options, maximum five years",
+    "must_contain": ["two (2) successive one (1) year"]
+  },
+  "Pre Bid Meeting": {
+    "value": "June 10, 2024 2:00 PM CST via Microsoft Teams video conference; not mandatory but highly encouraged",
+    "must_contain": ["Teams"]
+  },
+  "Installation": {
+    "value": "Yes: white-glove deployment services (asset tags, etching on laptops, asset reporting, delivery) and Autopilot / Google enrollment",
+    "must_contain": ["white glove", "etching"]
+  },
+  "Bid Bond Requirement": {"value": null, "status": "not_found", "must_contain": []},
+  "Delivery Date": {
+    "value": "No fixed date; quotes per project starting September 2024; delivery schedule set with Educational Technology",
+    "must_contain": []
+  },
+  "Payment Terms": {"value": null, "status": "not_found", "must_contain": []},
+  "Any Additional Documentation Required": {
+    "value": "MWBE forms, W-9, Form 1295, signed Addenda 1-2, three references, factory-authorized repair certifications (resellers), catalog/price list, insurance certificate within 10 days of award",
+    "must_contain": ["W9", "1295", "references"]
+  },
+  "MFG for Registration": {
+    "value": "No manufacturer named; resellers must hold factory-authorized certifications; OEM warranties required",
+    "must_contain": ["factory-authorized"]
+  },
+  "Contract or Cooperative to use": {"value": "EPCNT and CTPA rider options", "must_contain": ["EPCNT", "CTPA"]},
+  "Model_no": {"value": null, "status": "not_found", "must_contain": [], "notes": "Vendor proposes models; bid lists generic specs only"},
+  "Part_no": {"value": null, "status": "not_found", "must_contain": []},
+  "Product": {
+    "value": "10 device lines, e.g. 50,000 Tier 1 and 50,000 Tier 2 Chromebooks, 5,000 Tier 3 Windows laptops, 50,000 tablets, 10,000 of each staff laptop tier, 5,000 of each desktop tier and monitor type",
+    "must_contain": ["50,000", "Chromebook"]
+  },
+  "contact_info": {
+    "value": ["Jasmine Alzate, JALZATE@dallasisd.org, (972) 925-4100", "Portal: ProcurementCS@dallasisd.org, 972-925-3700"],
+    "must_contain": ["JALZATE@dallasisd.org"]
+  },
+  "company_name": {"value": "Dallas Independent School District", "must_contain": ["Dallas Independent School District"]},
+  "Bid Summary": {"value": null, "must_contain": [], "scoring": "faithfulness"},
+  "Product Specification": {
+    "value": "Per tier, e.g. Tier 3 student Windows laptop: Intel i5 13th gen, 16 GB DDR5 RAM, 256 GB NVMe SSD, Wi-Fi 6E, Windows 11 Pro, 3-year warranty",
+    "must_contain": ["16GB", "DDR5"]
+  }
+}

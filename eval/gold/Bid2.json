@@ -1,0 +1,49 @@
+{
+  "Bid Number": {"value": ["PORFP #E20P4600040", "eMMA BPM044557"], "must_contain": ["E20P4600040", "BPM044557"]},
+  "Title": {"value": "Dell Laptops w/Extended Warranty", "must_contain": ["Dell Laptops"]},
+  "Due Date": {"value": "2024-06-10 14:00 EDT", "must_contain": ["2024-06-10", "14:00", "EDT"]},
+  "Bid Submission Type": {
+    "value": "Electronic only via eMMA; no email, fax, mail or hand delivery",
+    "must_contain": ["eMMA"]
+  },
+  "Term of Bid": {
+    "value": "One-time fixed-price purchase order; proposals valid for at least 90 days",
+    "must_contain": ["90"]
+  },
+  "Pre Bid Meeting": {"value": "None", "must_contain": []},
+  "Installation": {"value": null, "status": "not_found", "must_contain": [], "notes": "No installation services requested"},
+  "Bid Bond Requirement": {"value": null, "status": "not_found", "must_contain": []},
+  "Delivery Date": {
+    "value": "Within 45 days of award, to 80 Calvert St, Annapolis",
+    "must_contain": ["45 days", "Calvert"]
+  },
+  "Payment Terms": {
+    "value": "No Net terms stated; invoice within 10 days of delivery with PORFP number and proof of delivery",
+    "must_contain": ["10 days"]
+  },
+  "Any Additional Documentation Required": {
+    "value": "Contract Affidavit, Mercury Affidavit, warranty certificate on award, Dell letter of authorization on request, ENERGY STAR products",
+    "must_contain": ["Contract Affidavit", "Mercury Affidavit"]
+  },
+  "MFG for Registration": {"value": "Dell (authorized reseller)", "must_contain": ["Dell"]},
+  "Contract or Cooperative to use": {
+    "value": "Maryland Desktop, Laptop and Tablet 2015 Master Contract 060B5400007; Small Business Reserve",
+    "must_contain": ["060B5400007"]
+  },
+  "Model_no": {"value": ["Dell Latitude 5550", "WD22TB4"], "must_contain": ["5550", "WD22TB4"]},
+  "Part_no": {"value": ["SI# CC7802", "WD22TB4", "210-BLYZ"], "must_contain": ["CC7802", "WD22TB4", "210-BLYZ"]},
+  "Product": {
+    "value": "30 Dell Latitude 5550 laptops, 30 WD22TB4 docking stations, 3-year extended warranty",
+    "must_contain": ["Latitude 5550", "WD22TB4"]
+  },
+  "contact_info": {
+    "value": "Tamaira Hawkins, 410-260-7533, thawkins@treasurer.state.md.us",
+    "must_contain": ["Tamaira Hawkins", "thawkins@treasurer.state.md.us"]
+  },
+  "company_name": {"value": "Maryland State Treasurer's Office", "must_contain": ["Treasurer"]},
+  "Bid Summary": {"value": null, "must_contain": [], "scoring": "faithfulness"},
+  "Product Specification": {
+    "value": "Intel Core Ultra 5 125U, 16 GB DDR5, 256 GB NVMe SSD, 15.6\" FHD non-touch display, Wi-Fi 6E, Windows 11 Pro, Copilot ready",
+    "must_contain": ["Core Ultra 5 125U", "16GB", "DDR5"]
+  }
+}

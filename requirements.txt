@@ -1,0 +1,38 @@
+# Python 3.10+ (developed on 3.12). Direct dependencies, pinned.
+
+# Ingestion
+pymupdf==1.28.2
+pdfplumber==0.11.10
+beautifulsoup4==4.15.0
+lxml==6.1.3
+pytesseract==0.3.13
+python-dateutil==2.9.0.post0
+
+# Search
+tiktoken==0.14.0
+sentence-transformers==6.1.0
+torch==2.14.1
+qdrant-client==1.19.1
+rank-bm25==0.2.2
+
+# LLM + agents
+openai==3.28.0
+anthropic==1.13.0
+langgraph==1.2.14
+langchain-core==1.6.9
+
+# Models / config
+pydantic==2.14.0
+PyYAML==6.0.3
+python-dotenv==1.2.4
+
+# CLI + API
+typer==0.27.3
+rich==15.0.0
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+httpx==0.28.1
+
+# Tests
+pytest==9.1.1

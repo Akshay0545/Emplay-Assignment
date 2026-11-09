@@ -1,0 +1,389 @@
+{
+  "judge": true,
+  "bids": [
+    {
+      "bid_id": "Bid1",
+      "fields": [
+        {
+          "field": "Bid Number",
+          "gold": "JA-207652; 168884",
+          "output": "JA-207652; SOURCING #168884; 00004079100",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Title",
+          "gold": "Student and Staff Computing Devices",
+          "output": "Student and Staff Computing Devices",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Due Date",
+          "gold": "2024-07-09 14:00 CST (changed by Addendum 2; originally June 27, 2024 2:00 PM)",
+          "output": "2024-07-09 14:00 CST",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Submission Type",
+          "gold": "Electronic via the Dallas ISD iSupplier portal (preferred) or one sealed hard copy to Procurement Services; no fax or email submissions",
+          "output": "Electronic submissions via the iSupplier portal are preferred; manual paper submissions are also permitted in a sealed envelope. Fax and email submissions are not accepted.",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Term of Bid",
+          "gold": "Three years with two successive one-year renewal options, maximum five years",
+          "output": "The term of this proposal shall be for a three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Pre Bid Meeting",
+          "gold": "June 10, 2024 2:00 PM CST via Microsoft Teams video conference; not mandatory but highly encouraged",
+          "output": "June 10, 2024 at 2:00 PM CST via TEAMS video conference. Attendance is highly encouraged; mandatory status is not stated.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Installation",
+          "gold": "Yes: white-glove deployment services (asset tags, etching on laptops, asset reporting, delivery) and Autopilot / Google enrollment",
+          "output": "The vendor must provide deployment services. White glove services include asset decaling, asset reporting, etching, and delivery to varied locations. Both asset tagging and etching are required, but etching is required only on laptops. The listed deployment services also include software installation, device deployment and setup, and asset control reporting. For Windows devices, autopilot is required; for Chromebooks, enrollment in Google Management is required.",
+          "score": "exact",
+          "citations": 6,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Bond Requirement",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Delivery Date",
+          "gold": "No fixed date; quotes per project starting September 2024; delivery schedule set with Educational Technology",
+          "output": "No fixed delivery date is stated. Dallas ISD is anticipating requesting quotes for different projects from awarded vendors starting in September of 2024. Awarded vendors will need to coordinate a schedule of deliveries with the Dallas ISD ED TECH department. Deliveries are to varied locations.",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "judge: The extracted value matches the gold by stating there is no fixed delivery date, quotes will be requested per project starting in September 2024, and delivery scheduling will be coordinated with Educational Technology/ED TECH."
+        },
+        {
+          "field": "Payment Terms",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Any Additional Documentation Required",
+          "gold": "MWBE forms, W-9, Form 1295, signed Addenda 1-2, three references, factory-authorized repair certifications (resellers), catalog/price list, insurance certificate within 10 days of award",
+          "output": "Signed Offer / Proposal (including full name and date); MWBE Forms (completed and attached, regardless of MWBE status); W9 Form (completed, signed, and attached); Form 1295 - Certificate of Interested Parties (completed, signed, and attached with the RFP response; not required if the company is publicly traded); Three business references with the requested contact information; Addendum 1 (signed and returned/submitted with the proposal); Addendum 2 (signed and returned/submitted with the proposal); Catalog or price list (when offering a discount of 0% and up); Pertinent literature/documentation for proposed products/goods or services; Credit application or similar documentation (if required to conduct business after award; submit with the offer); Factory-authorized repair and maintenance certifications (for resellers); Insurance form / certificate of insurance/bond (insurance form due within ten (10) days of award); Letter of Intent to Perform/Contract as an M/WBE Subcontractor (for each proposed M/WBE subcontractor, when applicable); M/WBE Pay Activity Report (PAR), with required proof of payments (with each pay application or as requested); Approved, signed, dated, and notarized Dallas ISD Master Joint Venture Agreement (if submitting as a joint venture); Exhibit A of the Dallas ISD Master Joint Venture Agreement (if submitting as a joint venture); Exhibit B staffing plan, including project organizational chart and resumes for key personnel (if submitting as a joint venture); Exhibit C letter from a financial institution or bonding surety company substantiating each M/WBE joint venture partner\u2019s financial strength or bonding capacity (if submitting as a joint venture)",
+          "score": "exact",
+          "citations": 19,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "MFG for Registration",
+          "gold": "No manufacturer named; resellers must hold factory-authorized certifications; OEM warranties required",
+          "output": "For proposing vendors who are resellers, a copy of all factory-authorized repair and maintenance certifications must be submitted with each proposal.; All equipment must be new and of the manufacturer's current model in production at the time of each order executed over the life of the contracts resulting from this RFP.; All warranty options need to be official manufacturer warranties.",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Contract or Cooperative to use",
+          "gold": "EPCNT and CTPA rider options",
+          "output": "Educational Purchasing Cooperative of North Texas (EPCNT); Central Texas Purchasing Alliance (CTPA)",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Model_no",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Part_no",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Product",
+          "gold": "10 device lines, e.g. 50,000 Tier 1 and 50,000 Tier 2 Chromebooks, 5,000 Tier 3 Windows laptops, 50,000 tablets, 10,000 of each staff laptop tier, 5,000 of each desktop tier and monitor type",
+          "output": "Tier 1 Small Student Chromebook Laptop (Touch): 50,000 Each; Tier 2 Large Student Chromebook Laptop (Non- Touch): 50,000 Each; Tier 3 Student Windows Laptop: 5,000 Each; Student Tablet: 50,000 Each; Tier 1 Staff Laptop: 10,000 Each; Tier 2 Staff Laptop: 10,000 Each; Tier 1 Staff Basic Desktop: 5,000 Each; Tier 2 Staff Professional Desktop: 5,000 Each; Display Monitor - Touch: 5,000 Each; Display Monitor - Non-Touch: 5,000 Each",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "contact_info",
+          "gold": "Jasmine Alzate, JALZATE@dallasisd.org, (972) 925-4100; Portal: ProcurementCS@dallasisd.org, 972-925-3700",
+          "output": "ALZATE, JASMINE \u2014 JALZATE@dallasisd.org; phone not stated; Procurement Services \u2014 972-925-3700; ProcurementCS@dallasisd.org; Sherri Williams \u2014 shewilli@dallasisd.org; phone not stated",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "company_name",
+          "gold": "Dallas Independent School District",
+          "output": "Dallas Independent School District",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Summary",
+          "gold": "",
+          "output": "Dallas Independent School District is procuring student and staff computing devices under Bid JA-207652; SOURCING #168884; 00004079100, titled \u201cStudent and Staff Computing Devices,\u201d with target quantities covering student Chromebooks, student Windows laptops, student tablets, staff laptops, staff desktops, and display monitors. The due date is July 9, 2024 at 2:00 PM CST, and the pre-bid meeting was held June 10, 2024 at 2:00 PM CST via TEAMS video conference; attendance was highly encouraged, but mandatory status was not stated. Submissions are preferred electronically through the iSupplier portal, though manual paper submissions in a sealed envelope are also permitted; fax and email submissions are not accepted. Required documentation includes a signed offer/proposal, MWBE forms, W9, Form 1295 unless publicly traded, three business references, signed Addenda 1 and 2, and other conditional items such as reseller certifications, a credit application, and joint-venture materials if applicable. The vendor must provide deployment services including asset decaling, asset reporting, etching, delivery to varied locations, software installation, device deployment and setup, and asset control reporting; etching is required only on laptops, Windows devices require autopilot, and Chromebooks require enrollment in Google Management. All equipment must be new, current model production, and any warranties must be official manufacturer warranties; no manufacturer is named, and no fixed delivery date is stated, though Dallas ISD expects to begin requesting quotes for different projects from awarded vendors starting in September 2024.",
+          "score": "partial",
+          "citations": 44,
+          "counted": false,
+          "reason": "judge: The extracted value matches many core gold facts (bid number, title, due date, submission method, pre-bid meeting, documentation, installation, no fixed delivery date, and no named manufacturer), but it adds extra unsupported details and does not fully capture the structured summary requirements such as the term, cooperative/rider options, and specific product/specification details."
+        },
+        {
+          "field": "Product Specification",
+          "gold": "Per tier, e.g. Tier 3 student Windows laptop: Intel i5 13th gen, 16 GB DDR5 RAM, 256 GB NVMe SSD, Wi-Fi 6E, Windows 11 Pro, 3-year warranty",
+          "output": "Tier 1 Staff Windows Basic Desktop: Intel i5 Processor, 14th Gen or equivalent; minimum 16GB RAM; 512 GB NVMe SSD; minimum 23.8\" diagonal screen Touch Screen; 802.11AX WiFi-6E and Bluetooth 5.1; Windows 11 Pro; 3-year minimum warranty.; Tier 2 Staff Professional Desktop: Intel i7 Processor, 14th Gen or equivalent; minimum 32GB DDR5 RAM; 1 TB NVMe SSD; minimum 23.8\" diagonal screen Touch Screen; 802.11AX WiFi-6E and Bluetooth 5.1; Windows 11 Pro or Mac O/S; 3-year minimum warranty.; Tier 1 Staff Basic Laptop: Intel i5 CPU, 14th Gen or equivalent; minimum 16GB DDR5 RAM; 512 GB NVMe SSD; minimum 13\" diagonal display; 802.11AX WiFi-6E and Bluetooth 5.1; Windows 11 or Mac OS; 3-year minimum warranty.; Tier 2 Staff Laptop: Intel i7 CPU, 14th Gen or equivalent; minimum 32GB DDR5 RAM; 1 TB NVMe SSD; minimum 13\" diagonal display; 1920 X 1080 minimum resolution; 802.11AX WiFi-6E and Bluetooth 5.1; Windows 11 or Mac OS; 3-year minimum warranty.; Tier 3 Student Windows Laptop: Intel i5 13th Gen or equivalent; minimum 16GB RAM DDR5 Memory; 256 GB NVMe SSD; minimum 13\" diagonal display; 1920-1080 Non-Touch; 802.11AX WiFi-6E and Bluetooth 5.1; Windows 11 Pro; 3-year minimum warranty.; Tier 1 Small Student Chromebook Laptop: Intel Celeron Processor N100 or equivalent; minimum 8GB DDR5 Memory; 64 GB eMMC; minimum 11.6\" diagonal display; 1366 x 768 Multi-touch; 802.11AX WiFi-6E and Bluetooth 5.1; Chrome O/S License Required; 1-year minimum warranty.; Tier 2 Large Student Chromebook Laptop: Intel Celeron Processor N100 or equivalent; minimum 8GB DDR5 Memory; 128 GB eMMC; minimum 14\" diagonal Non-Touch display; 1920-1080 resolution; 802.11AX WiFi-6E and Bluetooth 5.1; Chrome O/S License Required; 1-year minimum warranty.; Student Tablet: Processor A13; 64 GB storage; 10.2\" Retina display; 802.11AC and Bluetooth 4.2; iOS 17; 1-year minimum warranty.; Display Monitor - Touch: minimum 24\" diagonal screen; 1920 X 1080 resolution; 16:9 aspect ratio; 3000:1 contrast; 3-year minimum warranty.; Display Monitor - Non-Touch: minimum 24\" diagonal screen; 1920 X 1080 resolution; 3-year minimum warranty.",
+          "score": "exact",
+          "citations": 10,
+          "counted": true,
+          "reason": "all tokens present"
+        }
+      ],
+      "exact": 19,
+      "partial": 0,
+      "wrong": 0,
+      "scored_fields": 19,
+      "accuracy": 1.0,
+      "fields_with_citations": 16,
+      "values_without_citation": 0
+    },
+    {
+      "bid_id": "Bid2",
+      "fields": [
+        {
+          "field": "Bid Number",
+          "gold": "PORFP #E20P4600040; eMMA BPM044557",
+          "output": "E20P4600040; BPM044557; 00004079359",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Title",
+          "gold": "Dell Laptops w/Extended Warranty",
+          "output": "Dell Laptops w/Extended Warranty",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Due Date",
+          "gold": "2024-06-10 14:00 EDT",
+          "output": "2024-06-10 14:00 EDT",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Submission Type",
+          "gold": "Electronic only via eMMA; no email, fax, mail or hand delivery",
+          "output": "Submit bids through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system. Bids will not be accepted by email, fax, U.S. Mail, or hand delivery.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Term of Bid",
+          "gold": "One-time fixed-price purchase order; proposals valid for at least 90 days",
+          "output": "Proposals/quotes must be valid for at least 90 days after the set due date.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Pre Bid Meeting",
+          "gold": "None",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Installation",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Bid Bond Requirement",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Delivery Date",
+          "gold": "Within 45 days of award, to 80 Calvert St, Annapolis",
+          "output": "Delivery within 45 days of Award; 80 Calvert Street, Room 109 Annapolis, MD 21401",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Payment Terms",
+          "gold": "No Net terms stated; invoice within 10 days of delivery with PORFP number and proof of delivery",
+          "output": "Invoice(s) shall be submitted within 10 days of delivering the equipment and shall include at a minimum the following: Contractor name, mailing address, social security number or Federal Tax ID number, and phone number; reference the States assigned PORFP number; date, invoice number and amount due; proof of delivery including packing slip or delivery confirmation, and equipment serial numbers. Email invoices to STOaccountspayable@treasurer.state.md.us.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Any Additional Documentation Required",
+          "gold": "Contract Affidavit, Mercury Affidavit, warranty certificate on award, Dell letter of authorization on request, ENERGY STAR products",
+          "output": "Contract_Affidavit.pdf; Mercury_Affidavit.pdf; Invoice(s); Proof of delivery (packing slip or delivery confirmation, and equipment serial numbers)",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "MFG for Registration",
+          "gold": "Dell (authorized reseller)",
+          "output": "Dell \u2014 the Master Contractor must be an authorized reseller; the State may request a Letter of Authorization (LOA) from the Manufacturer or Distributor.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Contract or Cooperative to use",
+          "gold": "Maryland Desktop, Laptop and Tablet 2015 Master Contract 060B5400007; Small Business Reserve",
+          "output": "Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Model_no",
+          "gold": "Dell Latitude 5550; WD22TB4",
+          "output": "Dell Latitude 5550; Dell Thunderbolt 4 Dock \u2013 WD22TB4",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Part_no",
+          "gold": "SI# CC7802; WD22TB4; 210-BLYZ",
+          "output": "CC7802; 210-BLYZ; 379-BFNZ; 619-ARSB; 658-BCSB; 338-CNRG; 338-CNRK; 321-BKTQ; 409-BCXY; 631-BBSQ; 383-0464; 365-0257; 366-0135; 366-0141; 371-0941; 375-3088; WD22TB4",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Product",
+          "gold": "30 Dell Latitude 5550 laptops, 30 WD22TB4 docking stations, 3-year extended warranty",
+          "output": "Dell Latitude 5550 \u2014 30; Dell Thunderbolt 4 Dock \u2013 WD22TB4 \u2014 30",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "contact_info",
+          "gold": "Tamaira Hawkins, 410-260-7533, thawkins@treasurer.state.md.us",
+          "output": "Tamaira Hawkins \u2014 410-260-7533 \u2014 Thawkins@treasurer.state.md.us",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "company_name",
+          "gold": "Maryland State Treasurer's Office",
+          "output": "State of Maryland Treasurer's Office",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Summary",
+          "gold": "",
+          "output": "The State of Maryland Treasurer's Office is procuring Dell Laptops w/Extended Warranty under Bid E20P4600040; BPM044557; 00004079359, specifically 30 Dell Latitude 5550 units and 30 Dell Thunderbolt 4 Dock \u2013 WD22TB4 units. The bid is due on 06/10/2024 at 02:00 PM EDT, and no addendum changing the deadline is provided; no pre-bid meeting is stated. Bids must be submitted through the State\u2019s eMaryland Marketplace Advantage (eMMA) e-Procurement system, and bids will not be accepted by email, fax, U.S. Mail, or hand delivery. The procurement uses the Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007, and the Master Contractor must be an authorized Dell reseller; the State may request a Letter of Authorization from the Manufacturer or Distributor. Delivery is required within 45 days of award to 80 Calvert Street, Room 109, Annapolis, MD 21401, and proposals/quotes must remain valid for at least 90 days after the due date; warranty details are limited to the extended warranty in the title, and no contract duration or renewal options are stated. Invoice(s) must be submitted within 10 days of delivering the equipment and emailed to STOaccountspayable@treasurer.state.md.us with the required supporting information, including proof of delivery and equipment serial numbers; buyer-to-vendor payment timing is not stated.",
+          "score": "exact",
+          "citations": 15,
+          "counted": false,
+          "reason": "judge: The extracted value matches the gold summary on the key facts: bid number/title, due date, electronic-only submission, one-time/90-day term, no pre-bid meeting, 45-day delivery to Annapolis, required documentation/authorized Dell reseller, contract/cooperative, products, and payment/invoice timing."
+        },
+        {
+          "field": "Product Specification",
+          "gold": "Intel Core Ultra 5 125U, 16 GB DDR5, 256 GB NVMe SSD, 15.6\" FHD non-touch display, Wi-Fi 6E, Windows 11 Pro, Copilot ready",
+          "output": "CPU: Intel Core Ultra 5 125U processor, 12 MB cache, 12 cores, up to 4.3 GHz Turbo.; RAM: 16 GB (2 x 8 GB), DDR5, 5600 MT/s (5200 MT/s with 13th Gen Intel Core processors).; Storage: 256 GB, M.2 2230, TLC, Gen 4 PCIe NVMe SSD.; Display: 15.6-inch FHD 1920x1080, 60Hz, IPS, non-touch, anti-glare, 250 nit, 45% NTSC; FHD camera.; Wireless: Intel Wi-Fi 6E (6 where 6E unavailable) AX211, 2x2, 802.11ax; Bluetooth 5.3.; Operating system: Windows 11 Pro; English, Brazilian Portuguese PT-BR, French, Spanish.; Graphics: Integrated Intel graphics for Intel Core Ultra 5 125U processor.; Warranty: Dell Limited Hardware Warranty extended for all machines purchased \u2014 3 years following the date of delivery.; Requirement: Laptops must be Microsoft Copilot ready.",
+          "score": "exact",
+          "citations": 4,
+          "counted": true,
+          "reason": "all tokens present"
+        }
+      ],
+      "exact": 19,
+      "partial": 0,
+      "wrong": 0,
+      "scored_fields": 19,
+      "accuracy": 1.0,
+      "fields_with_citations": 17,
+      "values_without_citation": 0
+    }
+  ]
+}

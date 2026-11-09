@@ -1,0 +1,111 @@
+# Company capability profile for the go / no-go recommendation (bonus).
+# Edit this file for your company; nothing here is tied to a particular bid.
+# Each criterion names the extracted fields it is judged on, the capability it
+# is judged against and whether it is critical. The Go/No-Go agent reads the
+# saved record (outputs/<bid>.json), asks the LLM for a met / not_met /
+# unknown verdict per criterion using ONLY those field values, then code
+# derives the recommendation:
+#   no_go  - any critical criterion is not met
+#   review - no critical miss, but something is unknown or a non-critical
+#            criterion is not met
+#   go     - every critical criterion is met and nothing is not met
+company:
+  name: Example IT Reseller Inc.
+  description: Value-added reseller of end-user computing devices for public-sector customers.
+
+decision:
+  unknown_critical: review        # review | no_go : what an unknown critical criterion leads to
+
+criteria:
+  - id: manufacturer_authorization
+    label: Authorized for the required manufacturer(s)
+    critical: true
+    fields: [MFG for Registration, Model_no, Product, Product Specification]
+    capability:
+      authorized_manufacturers: [Dell, HP, Lenovo, Apple, Acer, ASUS, Samsung, Google]
+    rule: >
+      Met when every manufacturer the bid requires authorization or registration
+      for, or whose branded products it names, is in authorized_manufacturers.
+      Not met when a required manufacturer is missing from the list. Unknown when
+      the bid names no manufacturer.
+    when_not_found: unknown
+
+  - id: delivery
+    label: Delivery window achievable
+    critical: true
+    fields: [Delivery Date, Installation]
+    capability:
+      max_days_after_award: 45
+      installation_services: true
+      imaging_and_asset_tagging: true
+    rule: >
+      Met when the required delivery window is at least max_days_after_award days
+      after award (or no fixed window is stated) and any required installation,
+      imaging or asset-tagging service is one the company offers. Not met when
+      the window is shorter or a required service is not offered.
+    when_not_found: unknown
+
+  - id: bonding
+    label: Bid bond within bonding capacity
+    critical: true
+    fields: [Bid Bond Requirement]
+    capability:
+      surety_available: true
+      max_bid_bond_usd: 250000
+      max_bid_bond_percent: 10
+    rule: >
+      Met when no bid bond is required, or the required bond is at most
+      max_bid_bond_percent of the bid or max_bid_bond_usd. Not met when the bond
+      exceeds the capacity.
+    when_not_found: met             # a bid that states no bond requirement needs none
+
+  - id: region
+    label: Customer in a served region
+    critical: false
+    fields: [company_name, contact_info, Bid Submission Type]
+    capability:
+      regions_served: [Texas, Maryland, Virginia, Oklahoma, Louisiana, New Mexico, Arkansas]
+    rule: >
+      Met when the issuing organization or its contact address is in a served
+      region (state). Not met when it is clearly elsewhere. Unknown when the
+      location cannot be told from the values.
+    when_not_found: unknown
+
+  - id: contract_term
+    label: Contract term within policy
+    critical: false
+    fields: [Term of Bid]
+    capability:
+      max_initial_term_years: 3
+      renewals_acceptable: true
+    rule: >
+      Met when the initial term is at most max_initial_term_years years (renewal
+      options are acceptable). Not met when the initial term is longer.
+    when_not_found: unknown
+
+  - id: submission
+    label: Submission method supported
+    critical: false
+    fields: [Bid Submission Type]
+    capability:
+      electronic_portal: true
+      sealed_paper: true
+      email: true
+      in_person_delivery: false
+    rule: >
+      Met when at least one allowed submission method is supported. Not met when
+      the only allowed method is unsupported (for example in-person delivery only).
+    when_not_found: unknown
+
+  - id: cooperative
+    label: Contract vehicle accessible
+    critical: false
+    fields: [Contract or Cooperative to use]
+    capability:
+      cooperative_memberships: [TIPS, BuyBoard, Sourcewell, NASPO ValuePoint, OMNIA Partners]
+      state_master_contracts: []
+    rule: >
+      Met when no contract vehicle is required, or the referenced cooperative /
+      master contract is one the company holds. Not met when a required vehicle
+      is not held. Unknown when the vehicle is named but not clearly identifiable.
+    when_not_found: met

@@ -1,0 +1,17 @@
+html_labels: [Solicitation Number, Title, Reference Number, Issuing Organization,
+  Solicitation Type, Location, Publication, Closing Date, Prebid Conference,
+  Questions Due By, Contact Information, Description, Purchase Type, Piggyback Contract]
+html_drop_selectors: [script, style, nav, header, footer, noscript, form]
+filler_patterns:
+  - '^Type$'
+  - '^Provide your answer below$'
+  - '^Circle one from the response values below:?$'
+  - '^[-.…_]{10,}$'
+  - '^No - I Do not agree \. The District shall consider a NO response.*'
+  - '^Page \d+ of \d+$'
+classifier:
+  addendum: 'addendum\s*(no\.?|#|number)?\s*(\d+)'
+  affidavit: 'affidavit'
+  specs: '(\bspecs?\b|specification sheet|\bSKU\b)'
+  rfp: '(request for proposal|purchase order request|\bRFP\b|\bPORFP\b|invitation (to|for) bid|\bIFB\b)'
+  form: '(\bform\b|\bW-?9\b|questionnaire)'

@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-11-09T12:30:25+00:00",
+  "top_k": 10,
+  "configs": {
+    "vector": {
+      "candidates_per_retriever": 30,
+      "rrf_k": 60,
+      "rerank_top_n": 20,
+      "final_top_k": 5,
+      "use_bm25": false,
+      "use_reranker": false
+    },
+    "hybrid": {
+      "candidates_per_retriever": 30,
+      "rrf_k": 60,
+      "rerank_top_n": 20,
+      "final_top_k": 5,
+      "use_bm25": true,
+      "use_reranker": false
+    },
+    "hybrid_rerank": {
+      "candidates_per_retriever": 30,
+      "rrf_k": 60,
+      "rerank_top_n": 20,
+      "final_top_k": 5,
+      "use_bm25": true,
+      "use_reranker": true
+    }
+  },
+  "summary": {
+    "vector": {
+      "recall@1": 0.65,
+      "recall@3": 0.75,
+      "recall@5": 0.85,
+      "recall@10": 0.9,
+      "mrr": 0.7225,
+      "ndcg@10": 0.7652
+    },
+    "hybrid": {
+      "recall@1": 0.7,
+      "recall@3": 0.8,
+      "recall@5": 0.9,
+      "recall@10": 0.9,
+      "mrr": 0.7725,
+      "ndcg@10": 0.804
+    },
+    "hybrid_rerank": {
+      "recall@1": 0.8,
+      "recall@3": 0.9,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.8583,
+      "ndcg@10": 0.8931
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the new due date?",
+      "bid_id": "Bid1",
+      "expected_file": "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf",
+      "key_phrase": "July 9, 2024",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 2,
+      "question": "When was the original solicitation due?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "27-JUN-2024",
+      "ranks": {
+        "vector": null,
+        "hybrid": null,
+        "hybrid_rerank": 3
+      }
+    },
+    {
+      "id": 3,
+      "question": "Is there a pre-proposal meeting?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "TEAMS video conference",
+      "ranks": {
+        "vector": 4,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 4,
+      "question": "How long is the contract term?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "two (2) successive one (1) year",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 5,
+      "question": "Must Form 1295 be submitted with the response?",
+      "bid_id": "Bid1",
+      "expected_file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+      "key_phrase": "submitted with the RFP response",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 6,
+      "question": "Is etching required on monitors?",
+      "bid_id": "Bid1",
+      "expected_file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+      "key_phrase": "only require etching on Laptops",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 7,
+      "question": "Tier 3 student Windows laptop memory requirement",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "16GB RAM DDR5",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 8,
+      "question": "How many Tier 1 Chromebooks are estimated?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "50,000",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 9,
+      "question": "Who is the buyer?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "JALZATE@dallasisd.org",
+      "ranks": {
+        "vector": null,
+        "hybrid": 2,
+        "hybrid_rerank": 3
+      }
+    },
+    {
+      "id": 10,
+      "question": "Which cooperatives can ride the contract?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "EPCNT",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 11,
+      "question": "Can bids be emailed?",
+      "bid_id": "Bid1",
+      "expected_file": "JA-207652 Student and Staff Computing Devices FINAL.pdf",
+      "key_phrase": "No fax or email submissions",
+      "ranks": {
+        "vector": 3,
+        "hybrid": null,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 12,
+      "question": "What is the PORFP number?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "E20P4600040",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 13,
+      "question": "What is the closing time?",
+      "bid_id": "Bid2",
+      "expected_file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+      "key_phrase": "06/10/2024 02:00 PM EDT",
+      "ranks": {
+        "vector": 6,
+        "hybrid": 5,
+        "hybrid_rerank": 4
+      }
+    },
+    {
+      "id": 14,
+      "question": "How soon must equipment be delivered?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "within 45 days of Award",
+      "ranks": {
+        "vector": 2,
+        "hybrid": 2,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 15,
+      "question": "Which affidavit concerns mercury?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "Mercury Affidavit",
+      "ranks": {
+        "vector": 5,
+        "hybrid": 4,
+        "hybrid_rerank": 4
+      }
+    },
+    {
+      "id": 16,
+      "question": "What processor does the Latitude 5550 have?",
+      "bid_id": "Bid2",
+      "expected_file": "Dell_Laptop_Specs.pdf",
+      "key_phrase": "Core Ultra 5 125U",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 17,
+      "question": "Which master contract applies?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "060B5400007",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 18,
+      "question": "How long is the extended warranty?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "3 Years",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 19,
+      "question": "WD22TB4 quantity",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "WD22TB4",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    },
+    {
+      "id": 20,
+      "question": "How are invoices submitted?",
+      "bid_id": "Bid2",
+      "expected_file": "PORFP_-_Dell_Laptop_Final.pdf",
+      "key_phrase": "STOaccountspayable",
+      "ranks": {
+        "vector": 1,
+        "hybrid": 1,
+        "hybrid_rerank": 1
+      }
+    }
+  ]
+}

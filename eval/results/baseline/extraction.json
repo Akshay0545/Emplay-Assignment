@@ -1,0 +1,389 @@
+{
+  "judge": true,
+  "bids": [
+    {
+      "bid_id": "Bid1",
+      "fields": [
+        {
+          "field": "Bid Number",
+          "gold": "JA-207652; 168884",
+          "output": "JA-207652; SOURCING #168884; 00004079100",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Title",
+          "gold": "Student and Staff Computing Devices",
+          "output": "Student and Staff Computing Devices",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Due Date",
+          "gold": "July 9, 2024 2:00 PM Central (changed by Addendum 2; originally June 27, 2024 2:00 PM)",
+          "output": "July 9, 2024 at 2:00 PM CST",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Submission Type",
+          "gold": "Electronic via the Dallas ISD iSupplier portal (preferred) or one sealed hard copy to Procurement Services; no fax or email submissions",
+          "output": "Electronic submission via the iSupplier portal is preferred; manual submission by paper is permitted in a sealed envelope. No fax or email submissions will be accepted.",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Term of Bid",
+          "gold": "Three years with two successive one-year renewal options, maximum five years",
+          "output": "The term of this proposal shall be for a three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Pre Bid Meeting",
+          "gold": "June 10, 2024 2:00 PM CST via Microsoft Teams video conference; not mandatory but highly encouraged",
+          "output": "June 10, 2024 at 2:00 PM CST via TEAMS video conference; attendance is highly encouraged, not stated as mandatory.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Installation",
+          "gold": "Yes: white-glove deployment services (asset tags, etching on laptops, asset reporting, delivery) and Autopilot / Google enrollment",
+          "output": "Deployment services are required, including software installation; asset tagging/decals and reporting; etching; device deployment and setup; and delivery to varied locations. Both etching and asset tagging are required; etching is required on laptops only.",
+          "score": "partial",
+          "citations": 4,
+          "counted": true,
+          "reason": "missing tokens: ['white glove']"
+        },
+        {
+          "field": "Bid Bond Requirement",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Delivery Date",
+          "gold": "No fixed date; quotes per project starting September 2024; delivery schedule set with Educational Technology",
+          "output": "No required delivery date or delivery window after award is stated; delivery is to varied locations.",
+          "score": "partial",
+          "citations": 1,
+          "counted": true,
+          "reason": "judge: It correctly notes that there is no fixed delivery date, but omits project-based quotes starting September 2024 and the delivery schedule being set with Educational Technology."
+        },
+        {
+          "field": "Payment Terms",
+          "gold": "",
+          "output": "For subcontractor, supplier, or entity invoices, including retainage, prime vendors must pay within 10 days of receiving payment from the district. The Prime vendor must submit an M/WBE Pay Activity Report with each pay application or as requested by the district, along with required proof of payments.",
+          "score": "wrong",
+          "citations": 1,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Any Additional Documentation Required",
+          "gold": "MWBE forms, W-9, Form 1295, signed Addenda 1-2, three references, factory-authorized repair certifications (resellers), catalog/price list, insurance certificate within 10 days of award",
+          "output": "Completed M/WBE Forms, regardless of MWBE status; Completed and signed W9 Form; Form 1295, completed electronically, signed, and attached to the response (not required for publicly traded companies); Copies of Addendum 1 and Addendum 2, acknowledged and submitted with the proposal; For resellers: copies of all factory-authorized repair and maintenance certifications; demonstrated competencies and references in delivering the required magnitude of devices; Detailed plan describing tracking of shipped products and deployment services, including tracking processes and white glove service processes; Insurance form/certificate, to be received within ten days of award; If submitting a joint venture: approved, signed, dated, and notarized Dallas ISD Master Joint Venture Agreement; proposed modifications and amendments for review; and required supporting exhibits",
+          "score": "exact",
+          "citations": 9,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "MFG for Registration",
+          "gold": "No manufacturer named; resellers must hold factory-authorized certifications; OEM warranties required",
+          "output": "",
+          "score": "wrong",
+          "citations": 0,
+          "counted": true,
+          "reason": "no value extracted"
+        },
+        {
+          "field": "Contract or Cooperative to use",
+          "gold": "EPCNT and CTPA rider options",
+          "output": "Educational Purchasing Cooperative of North Texas (EPCNT); Central Texas Purchasing Alliance (CTPA)",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Model_no",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Part_no",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Product",
+          "gold": "10 device lines, e.g. 50,000 Tier 1 and 50,000 Tier 2 Chromebooks, 5,000 Tier 3 Windows laptops, 50,000 tablets, 10,000 of each staff laptop tier, 5,000 of each desktop tier and monitor type",
+          "output": "Tier 1 Small Student Chromebook Laptop (Touch) \u2014 50,000 Each; Tier 2 Large Student Chromebook Laptop (Non- Touch) \u2014 50,000 Each; Tier 3 Student Windows Laptop \u2014 5,000 Each; Student Tablet \u2014 50,000 Each; Tier 1 Staff Laptop \u2014 10,000 Each; Tier 2 Staff Laptop \u2014 10,000 Each; Tier 1 Staff Basic Desktop \u2014 5,000 Each; Tier 2 Staff Professional Desktop \u2014 5,000 Each; Display Monitor - Touch \u2014 5,000 Each; Display Monitor - Non-Touch \u2014 5,000 Each",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "contact_info",
+          "gold": "Jasmine Alzate, JALZATE@dallasisd.org, (972) 925-4100; Portal: ProcurementCS@dallasisd.org, 972-925-3700",
+          "output": "Jasmine Alzate \u2014 JALZATE@dallasisd.org; (972)925-4100; Procurement Services \u2014 ProcurementCS@dallasisd.org; 972-925-3700; Sherri Williams \u2014 shewilli@dallasisd.org",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "company_name",
+          "gold": "Dallas Independent School District",
+          "output": "Dallas Independent School District",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Summary",
+          "gold": "",
+          "output": "Dallas Independent School District\u2019s \u201cStudent and Staff Computing Devices\u201d bid (JA-207652; SOURCING #168884; 00004079100) lists 50,000 each of two student Chromebook models and student tablets; 5,000 student Windows laptops; 10,000 each of two staff laptop tiers; and 5,000 each of two staff desktop tiers and two monitor types. Bids were due July 9, 2024, at 2:00 PM CST; electronic submission through iSupplier was preferred, sealed paper submissions were permitted, and fax or email submissions were not accepted. The proposed term was three years, with two successive one-year extensions by mutual consent, not to exceed five years; the listed cooperatives were EPCNT and CTPA. Required deployment services included software installation, asset tagging and reporting, etching on laptops, device setup, and delivery to varied locations. Required documentation included completed M/WBE forms, a signed W9, applicable Form 1295, acknowledged addenda, and a detailed shipment-tracking and deployment plan. Prime vendors must pay subcontractor, supplier, or entity invoices, including retainage, within 10 days of receiving district payment and submit an M/WBE Pay Activity Report with each pay application or as requested, along with required proof of payments.",
+          "score": "partial",
+          "citations": 35,
+          "counted": false,
+          "reason": "judge: The summary correctly covers the bid identity, quantities, deadline, submission methods, term, and deployment services, but omits the pre-bid meeting, delivery timing, contact details, device specifications, and several required documents."
+        },
+        {
+          "field": "Product Specification",
+          "gold": "Per tier, e.g. Tier 3 student Windows laptop: Intel i5 13th gen, 16 GB DDR5 RAM, 256 GB NVMe SSD, Wi-Fi 6E, Windows 11 Pro, 3-year warranty",
+          "output": "Tier 1 Small Student Chromebook Laptop: Enterprise management ready; Intel Celeron Processor N100 or equivalent; minimum 11.6\" diagonal multi-touch display, 1366 x 768; 720p minimum camera; minimum 8GB DDR5; 802.11AX WiFi-6E and Bluetooth 5.1; Type C, 65W power supply; minimum 10 hours battery life; minimum 2 USB 3.0, type C, and headphone/microphone combo; 64 GB eMMC; Chrome O/S license required; 1-year minimum warranty.\nTier 2 Large Student Chromebook Laptop: Enterprise management ready; Intel Celeron Processor N100 or equivalent; minimum 14\" diagonal non-touch display; 720p minimum camera; 1920-1080 screen resolution; minimum 8GB DDR5; 802.11AX WiFi-6E and Bluetooth 5.1; Type C, 65W power supply; minimum 10 hours battery life; minimum 2 USB 3.0, 1 Type C, 65HDMI, and headphone/microphone combo; 128 GB eMMC; Chrome O/S license required; 1-year minimum warranty.\nTier 1 Staff Basic Desktop: Enterprise management ready with Autopilot Enrollment; Intel i5 Processor, 14th Gen or equivalent; minimum 23.8\" diagonal touchscreen; minimum 16GB RAM; 802.11AX WiFi-6E and Bluetooth 5.1; minimum 3 USB 3.0, 2 USB-C1 HDMI, and headphone/microphone combo; 512 GB NVMe SSD; Windows 11 Pro; 3-year minimum warranty.\nTier 2 Staff Professional Desktop: Enterprise management ready; Intel i7 Processor, 14th Gen or equivalent; minimum 23.8\" diagonal touchscreen; minimum 32GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; minimum 3 USB 3.0, 1 USB-C, 1 HDMI, and headphone/microphone combo; 1 TB NVMe SSD; Windows 11 Pro or Mac O/S; 4 GB video card; touchscreen optional; 3-year minimum warranty.\nTier 1 Staff Basic Laptop: Enterprise management ready; Intel i5 CPU, 14th Gen or equivalent; minimum 13\" diagonal screen; 1080p integrated camera; minimum 16GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; USB Type C, 65W power supply; minimum 10 hours battery life; minimum 1 USB 3.0, 1 USB-C, 1 HDMI, and headphone/microphone combo; 512 GB NVMe SSD; Windows 11 or Mac OS; 3-year minimum warranty.\nTier 2 Staff Laptop: Enterprise management ready; Intel i7 CPU, 14th Gen or equivalent; minimum 13\" diagonal screen; 1080p integrated camera; minimum 1920 X 1080 resolution; minimum 32GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; USB C, 65W power supply; minimum 10 hours battery life; minimum 2 USB 3.0, 1 HDMI, and headphone/microphone combo; 1 TB NVMe SSD; Windows 11 or Mac OS; 3-year minimum warranty.",
+          "score": "exact",
+          "citations": 6,
+          "counted": true,
+          "reason": "all tokens present"
+        }
+      ],
+      "exact": 15,
+      "partial": 2,
+      "wrong": 2,
+      "scored_fields": 19,
+      "accuracy": 0.842,
+      "fields_with_citations": 16,
+      "values_without_citation": 0
+    },
+    {
+      "bid_id": "Bid2",
+      "fields": [
+        {
+          "field": "Bid Number",
+          "gold": "PORFP #E20P4600040; eMMA BPM044557",
+          "output": "#E20P4600040; BPM044557; 00004079359",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Title",
+          "gold": "Dell Laptops w/Extended Warranty",
+          "output": "Dell Laptops w/Extended Warranty",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Due Date",
+          "gold": "June 10, 2024 2:00 PM EDT",
+          "output": "06/10/2024 02:00 PM EDT",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Submission Type",
+          "gold": "Electronic only via eMMA; no email, fax, mail or hand delivery",
+          "output": "Electronic submission through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system; email, fax, U.S. Mail, and hand delivery are not accepted.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Term of Bid",
+          "gold": "One-time fixed-price purchase order; proposals valid for at least 90 days",
+          "output": "Proposals/quotes must be valid for at least 90 days after the set due date.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Pre Bid Meeting",
+          "gold": "None",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Installation",
+          "gold": "",
+          "output": "Factory installation is listed; the specifications also list a Custom Asset Report and Consigned Asset Tag. No additional setup or deployment services are specified.",
+          "score": "wrong",
+          "citations": 2,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Bid Bond Requirement",
+          "gold": "",
+          "output": "",
+          "score": "exact",
+          "citations": 0,
+          "counted": true,
+          "reason": "gold states nothing is required / not found"
+        },
+        {
+          "field": "Delivery Date",
+          "gold": "Within 45 days of award, to 80 Calvert St, Annapolis",
+          "output": "Within 45 days of Award; 80 Calvert Street, Room 109, Annapolis, MD 21401.",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Payment Terms",
+          "gold": "No Net terms stated; invoice within 10 days of delivery with PORFP number and proof of delivery",
+          "output": "Invoices must be emailed to STOaccountspayable@treasurer.state.md.us within 10 days of equipment delivery and include the contractor\u2019s name, mailing address, SSN or Federal Tax ID, phone number, assigned PORFP number, date, invoice number, amount due, and proof of delivery with packing slip or delivery confirmation and equipment serial numbers. No payment due term is stated.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Any Additional Documentation Required",
+          "gold": "Contract Affidavit, Mercury Affidavit, warranty certificate on award, Dell letter of authorization on request, ENERGY STAR products",
+          "output": "Mercury Affidavit (required); Letter of Authorization from the Manufacturer or Distributor (may be requested); warranty certificate or affidavit (to be presented upon award).",
+          "score": "partial",
+          "citations": 2,
+          "counted": true,
+          "reason": "missing tokens: ['Contract Affidavit']"
+        },
+        {
+          "field": "MFG for Registration",
+          "gold": "Dell (authorized reseller)",
+          "output": "Dell \u2014 the Master Contractor must be an authorized reseller for Dell; the State reserves the right to request a Letter of Authorization from the Manufacturer or Distributor.",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Contract or Cooperative to use",
+          "gold": "Maryland Desktop, Laptop and Tablet 2015 Master Contract 060B5400007; Small Business Reserve",
+          "output": "Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Model_no",
+          "gold": "Dell Latitude 5550; WD22TB4",
+          "output": "SI# CC7802 (Dell Latitude 5550); WD22TB4 (Dell Thunderbolt 4 Dock)",
+          "score": "exact",
+          "citations": 2,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Part_no",
+          "gold": "SI# CC7802; WD22TB4; 210-BLYZ",
+          "output": "210-BLYZ (Dell Latitude 5550 XCTO Base); WD22TB4 (Dell Thunderbolt 4 Dock)",
+          "score": "partial",
+          "citations": 2,
+          "counted": true,
+          "reason": "missing tokens: ['CC7802']"
+        },
+        {
+          "field": "Product",
+          "gold": "30 Dell Latitude 5550 laptops, 30 WD22TB4 docking stations, 3-year extended warranty",
+          "output": "Dell Latitude 5550 \u2014 30; Dell Thunderbolt 4 Dock \u2013 WD22TB4 \u2014 30",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "contact_info",
+          "gold": "Tamaira Hawkins, 410-260-7533, thawkins@treasurer.state.md.us",
+          "output": "Tamaira Hawkins \u2014 410-260-7533 \u2014 thawkins@treasurer.state.md.us; James Simpson \u2014 410-260-6063 \u2014 jsimpson@treasurer.state. md.us",
+          "score": "exact",
+          "citations": 3,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "company_name",
+          "gold": "Maryland State Treasurer's Office",
+          "output": "State of Maryland Treasurer's Office",
+          "score": "exact",
+          "citations": 1,
+          "counted": true,
+          "reason": "all tokens present"
+        },
+        {
+          "field": "Bid Summary",
+          "gold": "",
+          "output": "The State of Maryland Treasurer\u2019s Office\u2019s bid \u201cDell Laptops w/Extended Warranty\u201d (#E20P4600040; BPM044557; 00004079359) uses the Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007. It calls for 30 Dell Latitude 5550 laptops and 30 Dell Thunderbolt 4 Docks (WD22TB4); the laptops include Windows 11 Pro and a three-year Dell Limited Hardware Warranty extension. Electronic submissions through eMaryland Marketplace Advantage (eMMA) were due June 10, 2024, at 2:00 PM EDT, and quotes must remain valid for at least 90 days after that date. Delivery is required within 45 days of award to 80 Calvert Street, Room 109, Annapolis, MD 21401. The Master Contractor must be an authorized Dell reseller; a Mercury Affidavit is required, a manufacturer or distributor Letter of Authorization may be requested, and a warranty certificate or affidavit must be presented upon award. Invoices must be emailed to STOaccountspayable@treasurer.state.md.us within 10 days of equipment delivery and include the specified contractor, purchase-order, invoice, delivery, and serial-number information.",
+          "score": "partial",
+          "citations": 28,
+          "counted": false,
+          "reason": "judge: The summary captures the main bid, products, deadline, submission method, delivery, and warranty terms, but omits several gold facts, including the Small Business Reserve, Contract Affidavit, ENERGY STAR requirement, and key laptop specifications."
+        },
+        {
+          "field": "Product Specification",
+          "gold": "Intel Core Ultra 5 125U, 16 GB DDR5, 256 GB NVMe SSD, 15.6\" FHD non-touch display, Wi-Fi 6E, Windows 11 Pro, Copilot ready",
+          "output": "Dell Latitude 5550 (30): Intel Core Ultra 5 125U processor, 12 MB cache, 12 cores, 14 threads, up to 4.3 GHz Turbo; 16 GB (2 x 8 GB) DDR5 memory; 256 GB M.2 2230 TLC Gen 4 PCIe NVMe SSD; 15.6-inch FHD 1920x1080, 60Hz, IPS, non-touch display, 250 nit; Intel Wi-Fi 6E (6 where 6E unavailable), AX211, 2x2, 802.11ax, Bluetooth 5.3; Windows 11 Pro; Microsoft Copilot ready; 3-year Dell Limited Hardware Warranty extended for all machines purchased.",
+          "score": "exact",
+          "citations": 6,
+          "counted": true,
+          "reason": "all tokens present"
+        }
+      ],
+      "exact": 16,
+      "partial": 2,
+      "wrong": 1,
+      "scored_fields": 19,
+      "accuracy": 0.895,
+      "fields_with_citations": 18,
+      "values_without_citation": 0
+    }
+  ]
+}

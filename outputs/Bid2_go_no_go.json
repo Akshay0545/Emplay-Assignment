@@ -1,0 +1,191 @@
+{
+  "bid_id": "Bid2",
+  "recommendation": "review",
+  "criteria": [
+    {
+      "criterion": "manufacturer_authorization",
+      "label": "Authorized for the required manufacturer(s)",
+      "status": "met",
+      "critical": true,
+      "reason": "The bid names Dell products and requires Dell authorization/LOA; Dell is in the company's authorized_manufacturers list. The decisive values are \"MFG for Registration: Dell\" and \"Model_no: Dell Latitude 5550; Dell Thunderbolt 4 Dock – WD22TB4\".",
+      "fields": [
+        "MFG for Registration",
+        "Model_no",
+        "Product",
+        "Product Specification"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:2:11",
+          "quote": "The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor."
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:3:13",
+          "quote": "1. SI# CC7802 Dell Latitude 5550 | SI# CC7802 Dell Latitude 5550 *Laptops must be Microsoft Copilot ready* | SI# CC7802 | 30 | 06/10/2024"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:3:14",
+          "quote": "2. Dell Thunderbolt 4 Dock – WD22TB4 | Dell Thunderbolt 4 Dock – WD22TB4 | WD22TB4 | 30 | 06/10/2024"
+        },
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "chunk_id": "2c1fdc5472667db39a4a6907937ebf0cd96e0f28:1:0",
+          "quote": "SI# CC7802 Dell Latitude 5550\nDescription SKU\nDell Latitude 5550 XCTO Base 210-BLYZ\nIntel Core Ultra 5 125U processor (12 MB cache, 12 cores, 14 379-BFNZ\nthreads, up to 4.3 GHz Turbo)\nWindows 11 Pro, English, Brazilian Portuguese PT-BR, French, 619-ARSB\nSpanish\nNo Microsoft Office License Included -"
+        },
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "chunk_id": "2c1fdc5472667db39a4a6907937ebf0cd96e0f28:1:2",
+          "quote": "2 x 8 GB, DDR5, 5600 MT/s (5200 MT/s with 13th Gen Intel 370-BBTL\nCore processors)\n256 GB, M.2 2230, TLC, Gen 4 PCIe NVMe, SSD 400-BRFT\n15.6\", FHD 1920x1080, 60Hz, IPS, Non-Touch, AG, 250 nit, 45% 391-BJHB\nNTSC, FHD Cam\nEnglish US backlit AI hotkey keyboard with numeric keypad, 99-key 583-BLNH\nIntel"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:3:8",
+          "quote": "*Laptops must be\nMicrosoft Copilot ready*"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:3:7",
+          "quote": "*Laptops must be\nMicrosoft Copilot ready*"
+        }
+      ]
+    },
+    {
+      "criterion": "delivery",
+      "label": "Delivery window achievable",
+      "status": "met",
+      "critical": true,
+      "reason": "The required delivery window is \"within 45 days of Award,\" which matches the company's max_days_after_award of 45. No installation, imaging, or asset-tagging requirement is stated.",
+      "fields": [
+        "Delivery Date",
+        "Installation"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:1:5",
+          "quote": "Delivery within 45 days of Award."
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:2:6",
+          "quote": "Agency On-site Address: 80 Calvert Street, Room 109 Annapolis, MD 21401"
+        }
+      ]
+    },
+    {
+      "criterion": "bonding",
+      "label": "Bid bond within bonding capacity",
+      "status": "met",
+      "critical": true,
+      "reason": "None of the fields Bid Bond Requirement is stated in the documents",
+      "fields": [
+        "Bid Bond Requirement"
+      ],
+      "sources": []
+    },
+    {
+      "criterion": "region",
+      "label": "Customer in a served region",
+      "status": "met",
+      "critical": false,
+      "reason": "The issuing organization is the \"State of Maryland Treasurer's Office,\" and Maryland is in the company's regions_served. The contact info also shows a Maryland phone number, reinforcing the served region.",
+      "fields": [
+        "company_name",
+        "contact_info",
+        "Bid Submission Type"
+      ],
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "c24fc1ff62df126b9adf411e6627067c5aee7448:1:0",
+          "quote": "Issuing Organization: State of Maryland Treasurer's Office"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "c24fc1ff62df126b9adf411e6627067c5aee7448:1:0",
+          "quote": "Contact Information: Tamaira Hawkins 410-260-7533 Thawkins@treasurer.state.md.us"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:1:4",
+          "quote": "Purchase Order Request for Proposal (PORFP) responses will only\nbe accepted through the State's eMaryland Marketplace Advantage\n(eMMA) e-Procurement system. Bids will not be accepted by email,\nfax, U.S. Mail, or hand delivery."
+        }
+      ]
+    },
+    {
+      "criterion": "contract_term",
+      "label": "Contract term within policy",
+      "status": "met",
+      "critical": false,
+      "reason": "The bid states proposals/quotes must be valid for at least 90 days after the due date, which is not an initial contract term longer than 3 years. No longer initial term is stated.",
+      "fields": [
+        "Term of Bid"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:1:5",
+          "quote": "Please allow proposals/quotes provided in response to this\nPORFP to be valid for at least 90 days after the set due date\nabove."
+        }
+      ]
+    },
+    {
+      "criterion": "submission",
+      "label": "Submission method supported",
+      "status": "met",
+      "critical": false,
+      "reason": "The bid requires submission through the eMMA electronic procurement system, and the company supports \"electronic_portal: true.\" The bid explicitly disallows email, fax, mail, and hand delivery.",
+      "fields": [
+        "Bid Submission Type"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:1:4",
+          "quote": "Purchase Order Request for Proposal (PORFP) responses will only\nbe accepted through the State's eMaryland Marketplace Advantage\n(eMMA) e-Procurement system. Bids will not be accepted by email,\nfax, U.S. Mail, or hand delivery."
+        }
+      ]
+    },
+    {
+      "criterion": "cooperative",
+      "label": "Contract vehicle accessible",
+      "status": "unknown",
+      "critical": false,
+      "reason": "The bid requires the \"Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007,\" but the company's held vehicles are not listed. The named vehicle is identifiable as a master contract, but ownership/access is not shown.",
+      "fields": [
+        "Contract or Cooperative to use"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "3109ebe6dd4db921dfb1e2e637e92feb4ca74b7c:1:3",
+          "quote": "Only Master Contractors that are awarded a contract under the\nDesktop, Laptop and Tablet 2015 Master Contract,\n060B5400007, are eligible to submit a bid in response to this\nsecondary competition Purchase Order Request for Proposal\n(PORFP)."
+        }
+      ]
+    }
+  ],
+  "summary": "Needs review: 6 of 7 criteria met. Unknown (not stated in the documents or undecidable): Contract vehicle accessible.",
+  "met": 6,
+  "not_met": 0,
+  "unknown": 1,
+  "generated_at": "2026-10-11T13:24:59.372+00:00",
+  "run_id": "20261011T132456Z-31eb64"
+}
